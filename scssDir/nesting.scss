@@ -6,11 +6,19 @@ div[name="vuive"] {
     $h123color: pink;
 
     h6, h5, h4 {
-        margin-left: calc($myWidth / 2.7);
+        margin: {
+            left: calc($myWidth / 2.7);
+        }
     }
 
     h1, h2, h3 {
-        margin-right: calc($myWidth / 2.7);
+        margin: {
+            left: calc($myWidth / 2.7);
+        }
         color: $h123color;
+        text: {
+            transform: uppercase;
+            overflow: hidden;
+        }
     }
 }
