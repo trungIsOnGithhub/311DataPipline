@@ -15,3 +15,7 @@ processor in a data pipeline. The processor should be OK with default setting
 + Dont forget to add the Scheduling with [CronMakerExpressionGenerate](http://www.cronmaker.com/)
 
 2. 
+
+
+#### Common Errors
+
