@@ -4,18 +4,25 @@
 
 > Build with Apache Nifi 1.27.x - Python 3.10.x - Elasticsearch - Kibana
 
-[Material Book Cover](/assets/set-up-cron-for-file-gen-1st-trigger.png)
+![Material Book Cover](/assets/book-cover.png)
 > This repo is implementation(with modification) for Chapter exercise in Data Engineering with Python
 
 1. To start the data pipeline, use the GenerateFlowFile processor as a trick, since other processor cannot be the first 
 processor in a data pipeline. The processor should be OK with default setting
 
-[image](/assets/set-up-cron-for-file-gen-1st-trigger.png)
+![image](/assets/set-up-cron-for-file-gen-1st-trigger.png)
 
-+ Dont forget to add the Scheduling with [CronMakerExpressionGenerate](http://www.cronmaker.com/)
++ Dont forget to add the Scheduling with ![CronMakerExpressionGenerate](http://www.cronmaker.com/)
+
+![image](/assets/set-up-cron-for-file-gen-1st-trigger.png)
 
 2. 
 
 
 #### Common Errors
 
+- Elastic/Kibana service need enrollment key for the first time.
+
+![image](/assets/common-error-cannot-get-ekey-elastic.png)
+
+**Solve:** The default username of elastic(and kibana) is ```elastic```. Find the generated password in the command running of script to start-up Elasticache
