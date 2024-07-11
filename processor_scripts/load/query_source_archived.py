@@ -19,7 +19,7 @@ class ModJSON(StreamCallback):
         pass
   def process(self, inputStream, outputStream):
     try:
-        param = {'place_url':'clark-county','per_page':'100'} # use any place url you want
+        param = {'place_url':'clark-county','per_page':'100','status':'archived'} # same with query script but has status: archived
 
         url = BASE_URL + urllib.urlencode(param)
 
