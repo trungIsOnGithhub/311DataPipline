@@ -28,6 +28,10 @@ processor in a data pipeline. The processor should be OK with default setting
 ![image](/assets/split-json-config-expression.png)
 + In this example, I want to extract the issue in data payload
 
+5. Add ```EvaluateJsonPath``` to add id to data flow
+
+![image](/assets/eveluate-json-path.png)
+
 + We can use this [site](https://jsonpath.com/) to write and check our json path
 
 + Image of the full flow of data pipelines:
