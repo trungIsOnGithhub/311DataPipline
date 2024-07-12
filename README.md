@@ -18,7 +18,10 @@ processor in a data pipeline. The processor should be OK with default setting
 
 2. 
 
-3. Add query processor for Archived Data from Source
+3. Add query processor for Archived Data from Source with Script
+
++ Choose the python Script option and add script to query data
+![image](/assets/split-json-config-expression.png)
 
 4. Add ```SplitJson``` processor for extract data fields
 
