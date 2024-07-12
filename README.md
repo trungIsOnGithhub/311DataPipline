@@ -30,6 +30,8 @@ processor in a data pipeline. The processor should be OK with default setting
 
 + We can use this [site](https://jsonpath.com/) to write and check our json path
 
++ Image of the full flow of data pipelines:
+![image](/assets/full-pipline-flow.png)
 
 #### Common Errors
 
