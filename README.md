@@ -18,6 +18,15 @@ processor in a data pipeline. The processor should be OK with default setting
 
 2. 
 
+3. Add query processor for Archived Data from Source
+
+4. Add ```SplitJson``` processor for extract data fields
+
+![image](/assets/split-json-config-expression.png)
++ In this example, I want to extract the issue in data payload
+
++ We can use this [site](https://jsonpath.com/) to write and check our json path
+
 
 #### Common Errors
 
